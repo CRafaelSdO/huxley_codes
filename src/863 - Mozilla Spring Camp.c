@@ -13,15 +13,15 @@ typedef struct _stack stack_t;
 
 stack_t *newStack();
 
-bool isEmpty(stack_t *stack);
+bool isEmpty(stack_t *);
 
-int size(stack_t *stack);
+int size(stack_t *);
 
-void push(node_t *node, stack_t *stack);
+void push(node_t *, stack_t *);
 
-node_t *pop(stack_t *stack);
+node_t *pop(stack_t *);
 
-void destroy_stack(stack_t *stack);
+void destroy_stack(stack_t *);
 
 //Main Function
 int main(int argc, char *argv[]) {
