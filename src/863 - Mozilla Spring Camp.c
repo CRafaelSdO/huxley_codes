@@ -24,7 +24,8 @@ node_t *pop(stack_t *);
 void destroy_stack(stack_t *);
 
 //Main Function
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
 	char *cmd = (char *) calloc(9, sizeof(char));
 
 	node_t *current = NULL;

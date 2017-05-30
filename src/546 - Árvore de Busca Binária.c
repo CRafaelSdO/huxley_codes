@@ -13,7 +13,8 @@ void form_bt(bt_t *, char *, int);
 
 bool is_binary_search_tree(bt_t *);
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
 	char *str = (char *) calloc(MAX, sizeof(char));
 	bt_t *bt = new_bt();
 

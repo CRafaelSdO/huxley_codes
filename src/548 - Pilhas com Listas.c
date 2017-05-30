@@ -28,7 +28,8 @@ void push(list_t *, stack_t *);
 list_t *pop(stack_t *);
 
 //Main Function ----------------------------------------------------------------
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
 	char *cmd = (char *) calloc(5, sizeof(char));
 
 	stack_t *stack = newStack();

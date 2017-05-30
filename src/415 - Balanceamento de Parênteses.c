@@ -21,7 +21,8 @@ void pop(stack_t *);
 void destroy_stack(stack_t *);
 
 //Main Function ----------------------------------------------------------------
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
 	int n, i, j;
 	bool balanced;
 

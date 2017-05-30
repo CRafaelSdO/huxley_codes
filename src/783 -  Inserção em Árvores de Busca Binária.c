@@ -10,7 +10,8 @@ void add_bt(int, bt_t *);
 
 void print_bt(bt_t *);
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
 	int n;
 
 	bt_t *bt = new_bt();

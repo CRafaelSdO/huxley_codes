@@ -23,7 +23,8 @@ void prt(hash_t *, int);
 
 void destroy_hash(hash_t *);
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
 	int i = 0;
 
 	int r;

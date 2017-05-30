@@ -14,7 +14,8 @@ void form_bt(bt_t *, char *, int);
 
 bool dfs_bt(bt_t *, int, int *);
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
 	int n;
 	
 	int d = -1;

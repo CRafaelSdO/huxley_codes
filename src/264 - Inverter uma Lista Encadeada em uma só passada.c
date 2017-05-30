@@ -13,7 +13,7 @@ node_t *add(node_t *, int);
 
 node_t *reverse(node_t *, node_t *);
 
-int main()
+int main(int argc, char *argv[])
 {
 	int i;
 	node_t *listhead = newList();
